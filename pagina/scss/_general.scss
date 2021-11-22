@@ -1,0 +1,34 @@
+a { text-decoration: none;
+    color: black;
+
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ayudaa{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+hr {
+    margin: 0;
+}
+
+@media only screen and (max-width: 519px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+ }
+@media only screen and (min-width: 520px) and (max-width: 719px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+ }
