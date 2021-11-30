@@ -81,6 +81,13 @@ section {
     justify-content: center;
     width: 100%;
     margin-bottom: 5px; }
+  section.ayudaa {
+    padding: 28px 0px; }
+  section .formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%; }
 
 footer {
   background-color: rgba(244, 165, 96, 0.726);
@@ -109,9 +116,9 @@ hr {
   margin: 0; }
 
 @media only screen and (max-width: 519px) {
-  .grid {
+  section .grid {
     grid-template-columns: 1fr; } }
 
 @media only screen and (min-width: 520px) and (max-width: 719px) {
-  .grid {
+  section .grid {
     grid-template-columns: 1fr 1fr; } }

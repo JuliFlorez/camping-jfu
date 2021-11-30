@@ -33,7 +33,6 @@ section{
         width: 25%;
         height: 25%;
     }
-
     .carrusel{
         background-color: black;
     
@@ -63,5 +62,15 @@ section{
         justify-content: center;
         width: 100%;
         margin-bottom: 5px;
+    }
+    &.ayudaa{
+        padding: 28px 0px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+
     }
 }
